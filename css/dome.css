@@ -1,0 +1,141 @@
+@charset "utf-8";
+/*去除连点时 文字出现的背景 */
+body{  -moz-user-select: none; /*火狐*/
+    -webkit-user-select: none; /*webkit浏览器*/
+    -ms-user-select: none; /*IE10*/
+    -khtml-user-select: none; /*早期浏览器*/
+    user-select: none;}
+/*公用弹窗layui*/
+
+.sancu { width:100%; height:auto; overflow:hidden;  -moz-border-radius: 15px !important; -webkit-border-radius: 15px !important;border-radius: 15px !important; border:1px solid #0785fd; box-sizing:border-box; background:#FFF; }
+
+.sancu .layui-layer-title{padding:0px; height:30px; line-height:30px; text-align:center; background:#0785fd; color:#FFF;  }
+
+.sancu .layui-layer-content{padding:0px !important; line-height:80px !important; text-align:center;}
+
+.sancu .layui-layer-btn{padding:0px;height:40px; line-height:80px; text-align:center;}
+
+.sancu .layui-layer-btn0{padding:0px;width:30%; float:left; margin-left:15%; height:30px; background:#F00 !important; line-height:30px; color:#FFF !important; text-align:center; margin-bottom:10px; border:none;  -moz-border-radius: 5px; -webkit-border-radius: 5px;border-radius: 5px;}
+
+.sancu .layui-layer-btn0:hover{ cursor:pointer;}
+
+.sancu .layui-layer-btn1{padding:0px;width:30%; float:left; margin-left:5%; height:30px; background:#5b5c59 !important; color:#FFF !important; line-height:30px; text-align:center;  margin-bottom:10px;  border:none;  -moz-border-radius: 5px; -webkit-border-radius: 5px;border-radius: 5px;}
+
+.sancu .layui-layer-btn1:hover{ cursor:pointer;}
+
+/*公用字体颜色*/
+.cor_1{ color:#fc4847 !important;}/*红*/
+
+.cor_2{ color:#0785fd !important;}/*蓝*/
+
+.cor_3{ color:#808080 !important;}/*灰*/
+
+.cor_4{ color:#22a119 !important;}/*绿*/
+
+.cor_5{ color:#fbaf3d !important;}/*黄*/
+
+/*公用表格按钮颜色*/
+
+.boder_1{ border:1px solid #0785fd; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding:2px 5px; transition:.5s all; color: #0785fd;}
+
+.boder_1:hover{ background:#0785fd; color:#FFF; text-decoration:none;}/*蓝色*/
+
+.boder_2{ border:1px solid #ff4831; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding:2px 5px; transition:.5s all; color: #ff4831;}
+
+.boder_2:hover{ background:#ff4831; color:#FFF; text-decoration:none;}/*红色*/
+
+.boder_3{ border:1px solid #fbaf3d; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding:2px 5px; transition:.5s all; color: #fbaf3d;}
+
+.boder_3:hover{ background:#fbaf3d; color:#FFF; text-decoration:none;}/*黄色*/
+
+
+.cavr{ width:100%; height:1px; clear:both; line-height:1px; overflow:hidden;}/*清浮动*/
+
+
+/*公用提交按钮颜色*/
+
+.boot_btn{ display: block; width: 160px; background: #3b99fb; float:left;  -moz-box-shadow: 3px 3px 4px #3b99fb;-webkit-box-shadow: 3px 3px 4px #3b99fb; box-shadow: 3px 3px 4px #3b99fb; border: none;}
+
+.boot_btn:hover{-moz-box-shadow: none;-webkit-box-shadow:none; box-shadow: none;}
+
+
+.boot_btn_1{ display: block; width: 160px; height:35px; background: #3b99fb; float:left;  -moz-box-shadow: 3px 3px 10px #3b99fb;-webkit-box-shadow: 3px 3px 10px #3b99fb; box-shadow: 3px 3px 10px #3b99fb; border: none; margin-left:20px;}
+
+.boot_btn_1:hover{-moz-box-shadow: none;-webkit-box-shadow:none; box-shadow: none;}
+
+
+
+.boot_btn_2{ display: block; width: 160px;  height:35px; background: #989ea5; float:left;  -moz-box-shadow: 3px 3px 10px #989ea5;-webkit-box-shadow: 3px 3px 10px #989ea5; box-shadow: 3px 3px 10px #989ea5; border: none; margin-left:20px;}
+
+.boot_btn_2:hover{-moz-box-shadow: none;-webkit-box-shadow:none; box-shadow: none; background: #989ea5;}
+
+/*公用大提交按钮颜色*/
+.boot_btnd{ display: block; width: 160px; height:40px; line-height:40px; background: #3b99fb; margin:0 auto; display: block;  -moz-box-shadow: 3px 3px 4px #3b99fb;-webkit-box-shadow: 3px 3px 4px #3b99fb; box-shadow: 3px 3px 4px #3b99fb; border: none;}
+
+.boot_btnd:hover{-moz-box-shadow: none;-webkit-box-shadow:none; box-shadow: none;}
+
+
+/*左右浮动*/
+
+.left{ float:left;}
+
+.right{ float:right;}
+
+/*左右浮动*/
+.boot_padding{ padding: 0;}
+/*文本剧中*/
+.boot_auto{ margin:0 auto; display: block;}
+
+/*底部*/
+
+footer{ width:100%; height:50px; line-height:50px; box-sizing:border-box; text-align:center; border-top:1px solid #252b39; color:#a5a6a8; position:fixed; bottom:0; left:0; background:#FFF;}
+
+
+
+
+
+
+/*分页*/
+
+.feniou{ width:500px; height:35px; overflow:hidden; margin-top:20px; float:right;}
+
+.feniou ul{ padding:0; margin:0;}
+
+.feniou ul li{ width:auto;  float:left; margin-right:5px; height:30px; line-height:30px; font-size:14px; color:#666666;}
+
+.feniou ul li a{ width:auto; padding:0 10px; display:block; color:#666666; border:1px solid #dddddd; height:30px; line-height:30px; font-size:12px; -moz-border-radius: 5px;  -webkit-border-radius: 5px; border-radius: 5px; }
+
+.int_2{ width:30px; height:30px; border:1px solid #dddddd; -moz-border-radius: 5px;  -webkit-border-radius: 5px; border-radius: 5px; text-align:center;}
+
+.int_3{ width:70px; height:32px; border:1px solid #dddddd; -moz-border-radius: 5px;  -webkit-border-radius: 5px; border-radius: 5px; text-align:center;}
+
+.anlor{ width:30px; height:30px; border:1px solid #4677e8;  background:#4677e8; color:#fff;-moz-border-radius: 5px;  -webkit-border-radius: 5px; border-radius: 5px; }
+
+.feniou ul li a:hover{ background:#4677e8; color:#fff; transition:all .2s; border:1px solid #4677e8;}
+
+#xzop{ background:#4677e8; color:#fff; transition:all .2s; border:1px solid #4677e8;}       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 950px) {
+	 
+footer{ width:100%; height:50px; line-height:50px; box-sizing:border-box; padding-left:0; text-align:center; border-top:1px solid #252b39; color:#a5a6a8;}	
+
+
+}
